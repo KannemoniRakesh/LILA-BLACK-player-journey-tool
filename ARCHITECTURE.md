@@ -127,6 +127,30 @@ To scale further:
 •	Move to Plotly/WebGL for smoother rendering
 •	Introduce backend API layer
 ________________________________________
+Assumptions
+•	Bot identification is inferred based on user_id format (non-UUID = bot)
+•	Some matches may have incomplete event data due to sampling
+•	Coordinate mapping assumes consistent scale across map
+________________________________________
+Tradeoffs
+Decision
+Streamlit
+Matplotlib
+Sample dataset
+Hexbin heatmap 
+
+Alternative
+ React + backend
+ Plotly/WebGL
+Full dataset
+ Kernel density 
+
+Why chosen?
+Faster development, less overhead
+Better control over static overlays 
+GitHub size limitations 
+Simpler + performant 
+________________________________________
 🧠 Key Takeaway
 The architecture prioritizes:
 •	Simplicity
