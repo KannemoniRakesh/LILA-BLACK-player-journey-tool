@@ -93,8 +93,8 @@ ________________________________________
 •	Player clustering detection
 ________________________________________
 🙌 Author
-Rakesh Kanemoni
-Major Incident Management Analyst → Aspiring Product Manager
+Kannemoni Rakesh
+Specialist → Aspiring Product Manager
 ________________________________________
 📎 Submission
 This project demonstrates:
